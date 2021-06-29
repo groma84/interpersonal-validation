@@ -4,7 +4,7 @@
     "dev": "slidev --open",
     "build": "slidev build",
     "export": "slidev export",
-    "gh-pages": "gh-pages -d slides"
+    "gh-pages": "gh-pages -d dist"
   },
   "dependencies": {
     "@slidev/cli": "^0.20.5",

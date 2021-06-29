@@ -112,12 +112,12 @@ Im Dialog mit anderen
 ## Emotionen genauer beschreiben
 
 <div class="flex">
-  <img src="img/The_Feeling_Wheel.png" alt="Bild eines englischsprachigen Emotionsrads"
+  <img src="/img/The_Feeling_Wheel.png" alt="Bild eines englischsprachigen Emotionsrads"
   class="object-contain" style="height: 18rem;"  />
 
   
   <div class="w-1/2 my-auto text-xs ml-8">
-    <img src="img/cc-by-sa-logo.png" alt="CC-BY-SA Logo" />
+    <img src="/img/cc-by-sa-logo.png" alt="CC-BY-SA Logo" />
 
 
   Colored Feeling Wheel by [Feeling Wheel](https://allthefeelz.app/cc/feeling-wheel) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
