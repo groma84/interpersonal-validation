@@ -21,3 +21,8 @@
   font-family: Inter;
   src: url("./fonts/inter/Inter-Regular.ttf");
 }
+
+@font-face {
+  font-family: AmaticSC;
+  src: url("./fonts/AmaticSC/AmaticSC-Bold.ttf");
+}

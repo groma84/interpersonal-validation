@@ -45,6 +45,12 @@
   li {
     font-family: Inter;
   }
+
+  .handwritten-font {
+    font-family: AmaticSC, serif;
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
 }
 
 .slidev-layout.cover {

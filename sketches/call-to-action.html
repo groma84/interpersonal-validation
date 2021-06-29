@@ -3,23 +3,44 @@
     <script src="rough.js"></script>
 
     <style>
+    @font-face {
+      font-family: AmaticSC;
+      src: url("../public/fonts/AmaticSC/AmaticSC-Bold.ttf");
+    }
+
       #sketch {
         height: 100%;
         width: 100%;
+      }
+
+      .handwritten-font {
+        font-family: AmaticSC, serif;
+        font-size: 2rem;
+        font-weight: bold;
       }
     </style>
   </head>
   <body>
     <svg id="sketch">
-      <text x="20" y="35" class="small">Emotionsvokabular lernen</text>
+      <text x="30" y="600" class="handwritten-font">(1) Emotionsvokabular lernen</text>
+      <text x="330" y="400" class="handwritten-font">(2) Zuhören lernen</text>
+      <text x="580" y="250" class="handwritten-font">(3) Emotional Bids erkennen und darauf eingehen</text>
+      <text x="1080" y="120" class="handwritten-font">(4) Validieren, validieren, validieren</text>
     </svg>
 
     <script lang="javascript">
       const svg = document.getElementById("sketch");
 
       const rc = rough.svg(svg);
-      const node = rc.rectangle(10, 10, 200, 200); // x, y, width, height
-      svg.appendChild(node);
+
+      svg.appendChild(rc.rectangle(10, 520, 330, 150, { fill: 'rgba(255,0,0,0.2)', fillStyle: 'solid'  }));
+      svg.appendChild(rc.rectangle(310, 320, 230, 150, { fill: 'rgba(255,150,0,0.2)', fillStyle: 'solid'  }));
+      svg.appendChild(rc.rectangle(550, 180, 550, 140, { fill: 'rgba(255,0,150,0.2)', fillStyle: 'solid'  }));
+      svg.appendChild(rc.rectangle(1050, 50, 420, 120, { fill: 'rgba(255,100,100,0.2)', fillStyle: 'solid'  }));
+
+      svg.appendChild(rc.arc(270, 520, 330, 200, Math.PI, Math.PI * 1.6, false, {strokeWidth: 3}));
+      svg.appendChild(rc.arc(560, 320, 330, 200, Math.PI, Math.PI * 1.5, false, {strokeWidth: 3}));
+      svg.appendChild(rc.arc(1110, 190, 330, 210, Math.PI, Math.PI * 1.4, false, {strokeWidth: 3}));
     </script>
   </body>
 </html>

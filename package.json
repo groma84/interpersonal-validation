@@ -3,12 +3,14 @@
   "scripts": {
     "dev": "slidev --open",
     "build": "slidev build",
-    "export": "slidev export"
+    "export": "slidev export",
+    "gh-pages": "gh-pages -d slides"
   },
   "dependencies": {
     "@slidev/cli": "^0.20.5",
     "@slidev/theme-default": "*",
-    "@slidev/theme-seriph": "*"
+    "@slidev/theme-seriph": "*",
+    "gh-pages": "^3.1.0"
   },
   "name": "interpersonal-validation"
 }
