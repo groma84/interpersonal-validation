@@ -330,12 +330,14 @@ Im Dialog mit anderen:
     </tr>
     <tr>
       <td>Slides</td>
-      <td><a href="https://groma84.github.io/interpersonal-validation/">https://groma84.github.io/interpersonal-validation/</a>
-                     </td>
-               <!--
-                      <div style="width: 30%;">TODO: QR Code generieren, sobald URL stimmt und als img einbinden</div>
-                      -->        
+      <td>
+      <a href="https://groma84.github.io/interpersonal-validation/">
+      https://groma84.github.io/interpersonal-validation/
+      </a>
+      </td>
     </tr>
+    <tr><td></td>
+    <td><img style="object-fit: contain; width: 120px;" src="/img/gh-pages-qrcode.svg" alt="QR-Code mit dem Link zum Vortrag auf Github Pages" /></td></tr>
   </tbody>
   </table>
 
