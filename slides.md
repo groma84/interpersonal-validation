@@ -53,12 +53,12 @@ Im Dialog mit anderen
 
 <v-click>
 
-- Rechtfertigung für diese Emotion liefern
+- Begründung/Rechtfertigung für diese Emotion liefern
 
 </v-click>
 
 <!--
-  Extreme Kurzfassung des Talks: Der Kern der zwischenmenschlichen Validierung ist das Anerkennen und Rechtfertigen der Emotionen des Gegenübers
+  Extreme Kurzfassung des Talks: Der Kern der zwischenmenschlichen Validierung ist das Anerkennen und Begründung/Rechtfertigen der Emotionen des Gegenübers
  -->
 
 ---
@@ -156,6 +156,12 @@ Im Dialog mit anderen
 
 <span style="font-style: italic;">von Friedemann Schulz von Thun</span>
 
+<!--
+- Sachebene: Sachliche Information
+- Selbstkundgabe: "Kostprobe" der Persönlichkeit
+- Beziehungsebene: Stand zum Gegenüber
+- Appell: Wünsche, Ratschläge, Handlungsanweisungen
+-->
 ---
 
 ## Wetten in jeder Beziehung - Emotional Bids
@@ -163,6 +169,7 @@ Im Dialog mit anderen
 
   <!-- 
     - Studie von Julie und John Gottman
+    - Ferienwohnung nachgebaut, Paare einen Tag beobachtet, 90%+ Trefferquote bei Zusammenbleibewahrscheinlichkeit
     - Emotional Bids: Bitte um Unterstützung, Mitfühlen
     - Mögliche Reaktionen:
       - Hinwenden/akzeptieren: +, 
@@ -296,6 +303,7 @@ Im Dialog mit anderen:
   - Besser: Fragen, ob überhaupt gewünscht. 
   - Niemand mag ungefragte Tipps!
   - Die meisten wissen schon, was sie machen wollen!
+  - YouTube-Video "The Nail"
 
   - Ausnahmen mit dem Nachfragen: Kindererziehung
   - Ungerechtfertigte Vorwürfe klar stellen
