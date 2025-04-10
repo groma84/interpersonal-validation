@@ -3,9 +3,9 @@
 theme: ./mathema-2021
 
 # infos for the footer (on slides with the default-with-footer layout)
-occasion: "DWX2021"
-occasionLogoUrl: "img/DWX_LogoIcon_2021_CMYK-scaled.jpg"
-company: "Mathema"
+occasion: "Herbstcampus 2022"
+occasionLogoUrl: "img/herbstcampus.svg"
+company: "MATHEMA GmbH"
 presenter: "Martin Grotz"
 contact: "martin.grotz@mathema.de"
 
@@ -18,9 +18,7 @@ defaults:
   layout: "default-with-footer"
 
 info: |
-  ## Zwischenmenschliche Validierung Slides
-
-  Visit my blog at https://elm.finde-ich-super.de
+  ## Zwischenmenschliche Validierung
   
 layout: cover
 ---
@@ -55,12 +53,12 @@ Im Dialog mit anderen
 
 <v-click>
 
-- Rechtfertigung für diese Emotion liefern
+- Begründung/Rechtfertigung für diese Emotion liefern
 
 </v-click>
 
 <!--
-  Extreme Kurzfassung des Talks: Der Kern der zwischenmenschlichen Validierung ist das Anerkennen und Rechtfertigen der Emotionen des Gegenübers
+  Extreme Kurzfassung des Talks: Der Kern der zwischenmenschlichen Validierung ist das Anerkennen und Begründung/Rechtfertigen der Emotionen des Gegenübers
  -->
 
 ---
@@ -88,6 +86,7 @@ Im Dialog mit anderen
 ## Agenda
 
 - Emotionen
+- Kommunikation allgemein
 - Beziehungs-Wetten
 - Zwischenmenschliche Validierung
   - Einfühlendes Zuhören
@@ -113,17 +112,21 @@ Im Dialog mit anderen
 
 <div class="flex">
   <img src="/img/The_Feeling_Wheel.png" alt="Bild eines englischsprachigen Emotionsrads"
-  class="object-contain" style="height: 18rem;"  />
+  class="object-contain" style="height: 25rem; margin-left: 8rem;"  />
 
   
-  <div class="w-1/2 my-auto text-xs ml-8">
-    <img src="/img/cc-by-sa-logo.png" alt="CC-BY-SA Logo" />
+  <div class="w-1/2 my-auto text-xs ml-16">
+    <img src="/img/cc-by-sa-logo.png" alt="CC-BY-SA Logo" style="height: 1rem;" />
 
+    
+  
 
-  Colored Feeling Wheel by [Feeling Wheel](https://allthefeelz.app/cc/feeling-wheel) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
-  Based on a work at https://www.tandfonline.com/doi/abs/10.1177/036215378201200411.
-
+  <div style="width: 80%; ">
+        Colored Feeling Wheel by <a href="https://allthefeelz.app/cc/feeling-wheel">Feeling Wheel</a> is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+        <br /> Based on a work at <a href="https://www.tandfonline.com/doi/abs/10.1177/036215378201200411">Transactional Analysis Journal</a>.
+    </div>
   </div>  
+
 </div> 
 
 
@@ -136,11 +139,37 @@ Im Dialog mit anderen
 
 ---
 
+## Kommunikation
+
+<blockquote style="margin-top: 2rem;">
+<span style="font-weight: bold;">Man kann nicht nicht kommunizieren.</span>
+<span style="display: block; margin-top: 1rem;">Erstes Axiom von <a href="https://www.paulwatzlawick.de">Paul Watzlawick</a></span>
+</blockquote>
+
+---
+
+## Vier-Seiten-Modell
+1) Sachebene
+2) Selbstkundgabe
+3) Beziehungsebene
+4) Appell
+
+<span style="font-style: italic;">von Friedemann Schulz von Thun</span>
+
+<!--
+- Sachebene: Sachliche Information
+- Selbstkundgabe: "Kostprobe" der Persönlichkeit
+- Beziehungsebene: Stand zum Gegenüber
+- Appell: Wünsche, Ratschläge, Handlungsanweisungen
+-->
+---
+
 ## Wetten in jeder Beziehung - Emotional Bids
 <ImageWithSource src="img/casino--kaysha-V3qzwMY2ak0-unsplash.jpg" alt="Foto eines Casino-Spieltisches" source="Photo by Kaysha on Unsplash" height="h-xs" />
 
   <!-- 
     - Studie von Julie und John Gottman
+    - Ferienwohnung nachgebaut, Paare einen Tag beobachtet, 90%+ Trefferquote bei Zusammenbleibewahrscheinlichkeit
     - Emotional Bids: Bitte um Unterstützung, Mitfühlen
     - Mögliche Reaktionen:
       - Hinwenden/akzeptieren: +, 
@@ -274,6 +303,7 @@ Im Dialog mit anderen:
   - Besser: Fragen, ob überhaupt gewünscht. 
   - Niemand mag ungefragte Tipps!
   - Die meisten wissen schon, was sie machen wollen!
+  - YouTube-Video "The Nail"
 
   - Ausnahmen mit dem Nachfragen: Kindererziehung
   - Ungerechtfertigte Vorwürfe klar stellen
@@ -309,7 +339,7 @@ Im Dialog mit anderen:
 
 ---
 
-## Danke für's Zuhören
+## Kontakt
 
 <div class="flex">
   <ImageWithSource src="img/martin_auf_briefkasten.jpg" alt="Martins Gesicht auf einem Briefkasten" height="h-xs" style="min-width: 15rem;" />
