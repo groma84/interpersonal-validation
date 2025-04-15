@@ -1,13 +1,13 @@
 ---
 # try also 'default' to start simple
-theme: ./mathema-2021
+theme: ./seda
 
 # infos for the footer (on slides with the default-with-footer layout)
-occasion: "Herbstcampus 2022"
-occasionLogoUrl: "img/herbstcampus.svg"
-company: "MATHEMA GmbH"
+occasion: "MD DevDays 2025"
+occasionLogoUrl: "img/magdeburger-dev-days-logo.jpeg"
+company: "Semikron Danfoss"
 presenter: "Martin Grotz"
-contact: "martin.grotz@mathema.de"
+contact: "martin.grotz@danfoss.com"
 
 # apply any windi css classes to the current slide
 class: "text-center"
@@ -32,6 +32,15 @@ layout: cover
 
 inklusive Einschränkungen
 -->
+
+---
+
+## Agenda
+
+- 
+- Emotionen
+- Zwischenmenschliche Validierung
+- Feedback
 
 ---
 
@@ -87,6 +96,7 @@ Im Dialog mit anderen
 
 - Emotionen
 - Kommunikation allgemein
+- Feedback geben und nehmen
 - Beziehungs-Wetten
 - Zwischenmenschliche Validierung
   - Einfühlendes Zuhören
@@ -141,20 +151,34 @@ Im Dialog mit anderen
 
 ## Kommunikation
 
+- Riesige Menge an unterschiedlichen Sichtweisen, Modellen, Prinzipien ...
+- Hier heute nur eine, kleine
+
+<!--
+  - Es gibt eine schier unendliche Menge an Sichtweisen, Modellen, Prinzipien, Literatur etc.
+  - ich gebe nur ein paar Schlagworte, die mir immer wieder begegnet sind
+  - keinerlei Anspruch auf Vollständigkeit oder ähnliches
+-->
+
+---
+
+## Alles ist Kommunikation
+
 <blockquote style="margin-top: 2rem;">
 <span style="font-weight: bold;">Man kann nicht nicht kommunizieren.</span>
-<span style="display: block; margin-top: 1rem;">Erstes Axiom von <a href="https://www.paulwatzlawick.de">Paul Watzlawick</a></span>
+<span style="display: block; margin-top: 1rem;">Erstes Axiom von <a href="https://www.paulwatzlawick.de/axiome.html">Paul Watzlawick</a></span>
 </blockquote>
 
 ---
 
-## Vier-Seiten-Modell
+## Vier-Seiten-Modell (Kommunikationsquadrat)
+
 1) Sachebene
 2) Selbstkundgabe
 3) Beziehungsebene
 4) Appell
 
-<span style="font-style: italic;">von Friedemann Schulz von Thun</span>
+<span style="font-style: italic;">von <a href="https://www.schulz-von-thun.de/die-modelle/das-kommunikationsquadrat">Friedemann Schulz von Thun</a></span>
 
 <!--
 - Sachebene: Sachliche Information
@@ -162,19 +186,62 @@ Im Dialog mit anderen
 - Beziehungsebene: Stand zum Gegenüber
 - Appell: Wünsche, Ratschläge, Handlungsanweisungen
 -->
+
 ---
 
-## Wetten in jeder Beziehung - Emotional Bids
+## Feedback geben
+
+Drei Teile für spezifisches, umsetzbares Feedback:
+1) Beobachtetes Verhalten
+2) Auswirkungen
+3) Wunsch oder Frage
+
+<!--
+  - Beobachtetes Verhalten: Fakten, keine Interpretation
+  - Ziel: gemeinsames Verständnis des Passierten
+  - Auswirkungen auf mich, andere, das Projekt, ...
+  - hier kann es auch subjektiv sein
+  - am besten auf eine Sache beschränken, die für die andere Person auch eine Bedeutung hat
+  - Wunsch: Ich möchte, dass du stattdessen X machst
+  - Noch besser: Offene Frage stellen (Kannst du mir helfen, zu verstehen, warum du X machst? Wie können wir Y verbessern?)
+-->
+
+---
+
+## Feedback bekommen
+
+- nicht persönlich nehmen
+- nicht rechtfertigen
+- mitnehmen und später in Ruhe evaluieren
+- spezifisch nachfragen
+- Vorschlag oder Anweisung?
+
+---
+
+## Emotional Bids
+
 <ImageWithSource src="img/casino--kaysha-V3qzwMY2ak0-unsplash.jpg" alt="Foto eines Casino-Spieltisches" source="Photo by Kaysha on Unsplash" height="h-xs" />
 
   <!-- 
-    - Studie von Julie und John Gottman
+    - Emotional Bids: Bitte um Unterstützung, Mitfühlen
+  -->
+
+---
+
+## Wetten in jeder Beziehung 
+
+- Studie von <a href="https://www.gottman.com/">John Gottman</a> und Robert Levenson: "What predicts change in marital interaction over time" (1999)
+
+<img src="Marriage and Couples - Research - The Gottman Institute - snippet.png" alt="Ausschnitt aus Diagramm, Verhältnis positiv zu negativ bei Paaren" style="" />
+
+  <!-- 
     - Ferienwohnung nachgebaut, Paare einen Tag beobachtet, 90%+ Trefferquote bei Zusammenbleibewahrscheinlichkeit
     - Emotional Bids: Bitte um Unterstützung, Mitfühlen
     - Mögliche Reaktionen:
       - Hinwenden/akzeptieren: +, 
+      - halbherzig annehmen oder ignorieren: -
       - Explizit ablehnen: --, 
-      - halbherzig annehmen: -
+    - Beispiele für Hinwenden und Abwenden im Arbeitskontext: Tolle Leistung, Kollege erzählt, wie reagiere ich darauf?
   -->
 
 ---
@@ -195,7 +262,7 @@ Vier Schritte:
 
 
 <h3 class="mt-8 mb-4 text-2xl">Empathie</h3>
-<blockquote v-click style="font-size: 1.25rem; line-height: 2rem;">Empathie bezeichnet die Fähigkeit und Bereitschaft, Empfindungen, <strong>Emotionen</strong> , Gedanken, Motive und Persönlichkeitsmerkmale einer anderen Person zu erkennen, zu verstehen und <strong>nachzuempfinden</strong> .
+<blockquote v-click style="font-size: 1.25rem; line-height: 2rem;">Empathie bezeichnet die Fähigkeit und Bereitschaft, Empfindungen, <strong>Emotionen</strong>, Gedanken, Motive und Persönlichkeitsmerkmale einer anderen Person zu erkennen, zu verstehen und <strong>nachzuempfinden</strong> .
 <br /><br /> <cite>Wikipedia</cite> </blockquote>
 
 <!--
@@ -348,11 +415,11 @@ Im Dialog mit anderen:
   <tbody>
     <tr>
       <td>E-Mail</td>
-      <td><a href="mailto:martin.grotz@mathema.de">martin.grotz@mathema.de</a></td>
+      <td><a href="mailto:martin.grotz@danfoss.com">martin.grotz@danfoss.com</a></td>
     </tr>
     <tr>
-      <td>Twitter</td>
-      <td><a href="https://twitter.com/mobilgroma">@mobilgroma</a></td>
+      <td>LinkedIn</td>
+      <td><a href="https://www.linkedin.com/in/martin-grotz/">martin-grotz</a></td>
     </tr>
     <tr>
       <td>Github</td>
@@ -373,5 +440,3 @@ Im Dialog mit anderen:
 
  
 </div>
-
-

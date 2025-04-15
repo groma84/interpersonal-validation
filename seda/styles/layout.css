@@ -1,0 +1,68 @@
+:root {
+  --slidev-theme-primary: #E30613;
+}
+
+.object-fit-contain {
+  object-fit: contain;
+}
+
+.slidev-layout {
+  font-size: 1.2rem;
+
+  h1, h2, h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0.5rem;
+
+    color: var(--slidev-theme-primary);
+    text-transform: none;
+    opacity: 1 !important;
+  }
+
+  h4, h5, h6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0.5rem;
+  }
+
+  blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    padding: 1rem;
+    margin: 1rem 0rem;
+  }
+
+  p,
+  li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  ul {
+    list-style: square;
+  }
+  
+  
+
+
+  td {
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+  }
+}
+
+.slidev-layout.footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.slidev-layout.cover {
+  @apply h-full grid;
+
+  h1 {
+    @apply text-3xl pl-0 mb-7;
+    background-image: none;
+    color: black;
+  }
+
+  h4, h5, h6 {
+    color: var(--slidev-theme-primary);
+  }
+}
