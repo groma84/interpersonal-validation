@@ -8,6 +8,7 @@ occasionLogoUrl: "img/magdeburger-dev-days-logo.jpeg"
 company: "Semikron Danfoss"
 presenter: "Martin Grotz"
 contact: "martin.grotz@danfoss.com"
+shortTitle: "Zwischenmenschliche Validierung"
 
 # apply any windi css classes to the current slide
 class: "text-center"
@@ -32,15 +33,6 @@ layout: cover
 
 inklusive Einschränkungen
 -->
-
----
-
-## Agenda
-
-- 
-- Emotionen
-- Zwischenmenschliche Validierung
-- Feedback
 
 ---
 
@@ -87,6 +79,13 @@ Im Dialog mit anderen
 
   <ImageWithSource  src="img/how_to_talk_so_little_kids_will_listen_cover.jpeg" alt="How To Talk So Little Kids Will Listen Buchcover" source="" />
 </span>
+
+<span v-click="3">
+
+  <ImageWithSource  src="img/resilient-management-cover-new-250.png" alt="Resilient Management Buchcover" source="" />
+</span>
+
+
 
 </div>
 
@@ -154,6 +153,8 @@ Im Dialog mit anderen
 - Riesige Menge an unterschiedlichen Sichtweisen, Modellen, Prinzipien ...
 - Hier heute nur eine, kleine
 
+tbd: Unsplash Bild
+
 <!--
   - Es gibt eine schier unendliche Menge an Sichtweisen, Modellen, Prinzipien, Literatur etc.
   - ich gebe nur ein paar Schlagworte, die mir immer wieder begegnet sind
@@ -189,9 +190,15 @@ Im Dialog mit anderen
 
 ---
 
+## Feedback
+
+tbd: unsplash bild
+
+---
+
 ## Feedback geben
 
-Drei Teile für spezifisches, umsetzbares Feedback:
+Drei Schritte für spezifisches, umsetzbares Feedback:
 1) Beobachtetes Verhalten
 2) Auswirkungen
 3) Wunsch oder Frage
@@ -232,7 +239,7 @@ Drei Teile für spezifisches, umsetzbares Feedback:
 
 - Studie von <a href="https://www.gottman.com/">John Gottman</a> und Robert Levenson: "What predicts change in marital interaction over time" (1999)
 
-<img src="Marriage and Couples - Research - The Gottman Institute - snippet.png" alt="Ausschnitt aus Diagramm, Verhältnis positiv zu negativ bei Paaren" style="" />
+<img src="/img/Marriage_and_Couples_Research_snippet.png" alt="Ausschnitt aus Diagramm, Verhältnis positiv zu negativ bei Paaren" style="" />
 
   <!-- 
     - Ferienwohnung nachgebaut, Paare einen Tag beobachtet, 90%+ Trefferquote bei Zusammenbleibewahrscheinlichkeit
