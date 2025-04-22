@@ -68,25 +68,22 @@ Im Dialog mit anderen
 
 <div class="flex justify-between content-start h-xs p-2">
 
-<span v-click="1">
-
-  <ImageWithSource  src="img/I_hear_you_cover.jpg" alt="I Hear You Buchcover" source="" />
-
-</span>
+  <span v-click="1">
+    <ImageWithSource  src="img/I_hear_you_cover.jpg" alt="I Hear You Buchcover" source="" />
+  </span>
 
 
-<span v-click="2">
+  <span v-click="2">
+    <ImageWithSource  src="img/how_to_talk_so_little_kids_will_listen_cover.jpeg" alt="How To Talk So Little Kids Will Listen Buchcover" source="" />
+  </span>
 
-  <ImageWithSource  src="img/how_to_talk_so_little_kids_will_listen_cover.jpeg" alt="How To Talk So Little Kids Will Listen Buchcover" source="" />
-</span>
+  <span v-click="3">
+    <ImageWithSource  src="img/resilient-management-cover-new-250.png" alt="Resilient Management Buchcover" source="" />
+  </span>
 
-<span v-click="3">
-
-  <ImageWithSource  src="img/resilient-management-cover-new-250.png" alt="Resilient Management Buchcover" source="" />
-</span>
-
-
-
+  <span v-click="4">
+    <ImageWithSource  src="img/thanks-for-the-feedback-cover.jpg" alt="Thanks for the Feedback Buchcover" source="" />
+  </span>
 </div>
 
 ---
@@ -153,7 +150,8 @@ Im Dialog mit anderen
 - Riesige Menge an unterschiedlichen Sichtweisen, Modellen, Prinzipien ...
 - Hier heute nur eine, kleine
 
-tbd: Unsplash Bild
+<ImageWithSource src="img/shouting-into-phone--icons8-team-r-enAOPw8Rs-unsplash.jpg" alt="Person, die in ein Telefon schreit" source="Photo by Icons8 Team on Unsplash" height="h-xs" />
+
 
 <!--
   - Es gibt eine schier unendliche Menge an Sichtweisen, Modellen, Prinzipien, Literatur etc.
@@ -192,11 +190,31 @@ tbd: Unsplash Bild
 
 ## Feedback
 
-tbd: unsplash bild
+<ImageWithSource src="img/awesome-sign--jon-tyson-82ZEOTntP8g-unsplash.jpg" alt="Straßenschild mit Awesome, not awesome drauf" source="Photo by Jon Tyson on Unsplash" height="h-xs" />
+
 
 ---
 
 ## Feedback geben
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+
+  <div style="font-size: 1.6rem; font-weight: bold; color: darkyellow; margin-top: 2rem;">✨ The golden rule ✨</div>
+
+  <div v-click style="margin-top: 2rem;">
+
+  🧑‍🧑‍🧒‍🧒 Praise in public
+
+  🥷 criticize in private
+
+  </div>
+
+</div>
+
+---
+
+
+## Gut Feedback geben
 
 Drei Schritte für spezifisches, umsetzbares Feedback:
 1) Beobachtetes Verhalten
@@ -217,11 +235,20 @@ Drei Schritte für spezifisches, umsetzbares Feedback:
 
 ## Feedback bekommen
 
+<div v-click>
+
 - nicht persönlich nehmen
 - nicht rechtfertigen
 - mitnehmen und später in Ruhe evaluieren
-- spezifisch nachfragen
-- Vorschlag oder Anweisung?
+
+</div>
+
+<div v-click>
+
+- spezifisch nachfragen, was genau gemeint ist
+- Intention des Feedbacks: Vorschlag oder Anweisung?
+
+</div>
 
 ---
 
@@ -324,7 +351,7 @@ Vier Schritte:
 
 <div style="transform: rotate(24deg) translate(20rem, 10rem);">Eigene Probleme</div>
 
-<div style="transform: rotate(312deg) translate(7rem, -1rem);">Ich-weiß-eh-schon-alles</div>
+<div style="transform: rotate(312deg) translate(3rem, -1rem);">Ich-weiß-eh-schon-alles</div>
 
 <div style="transform: rotate(5deg) translate(25rem, 0px);">Gedanklich mit was anderem beschäftigt</div>
 
@@ -332,7 +359,7 @@ Vier Schritte:
 
 <div style="transform: rotate(333deg) translate(0px, 0px);">Vorurteile</div>
 
-<div style="transform: rotate(68deg) translate(30rem, -11rem);">Sprachkenntnisse</div>
+<div style="transform: rotate(68deg) translate(35rem, -12rem);">Sprachkenntnisse</div>
 
 <div style="transform: rotate(2deg) translate(20rem, 9rem);">Aufmerksamkeitsspanne</div>
 
