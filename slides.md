@@ -31,7 +31,9 @@ layout: cover
 <!--
 ## Wer bin ich und was mache ich hier?
 
-inklusive Einschränkungen
+Soft Skills notwendig weil vom Entwickler zum Teamleiter geworden
+
+inklusive Einschränkungen: ich bin Laie, und erzähle nur ein paar Themen, die mir weiterhelfen
 -->
 
 ---
@@ -93,7 +95,7 @@ Im Dialog mit anderen
 - Emotionen
 - Kommunikation allgemein
 - Feedback geben und nehmen
-- Beziehungs-Wetten
+- Beziehungs-Angebote
 - Zwischenmenschliche Validierung
   - Einfühlendes Zuhören
   - Validieren
@@ -139,7 +141,7 @@ Im Dialog mit anderen
 <!--
   - Uns fehlt das Vokabular, Emotionen genauer zu beschreiben
   - "Feeling Wheel", oder wenn man es auf Deutsch haben möchte: "Emotionsrad"
-  - Wieselworte oder Wertungen vermeiden: nicht einfach "gut", oder "okay" -> Nachfragen, mehr rauskitzeln
+  - Wieselworte oder Wertungen vermeiden: nicht einfach "gut", oder "okay" -> Nachfragen, mehr rauskitzeln (natürlich nicht beim absichtlich oberflächlichen Smalltalk)
   - Was ich nicht beschreiben kann, kann ich auch schwerer verarbeiten
 -->
 
@@ -172,10 +174,10 @@ Im Dialog mit anderen
 
 ## Vier-Seiten-Modell (Kommunikationsquadrat)
 
-1) Sachebene
-2) Selbstkundgabe
-3) Beziehungsebene
-4) Appell
+1) Sachebene - um was geht es?
+2) Selbstkundgabe - was bringe ich von mir ins Gespräch ein?
+3) Beziehungsebene - wie stehen wir zueinander?
+4) Appell - was möchte ich erreichen?
 
 <span style="font-style: italic;">von <a href="https://www.schulz-von-thun.de/die-modelle/das-kommunikationsquadrat">Friedemann Schulz von Thun</a></span>
 
@@ -199,7 +201,7 @@ Im Dialog mit anderen
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 
-  <div style="font-size: 1.6rem; font-weight: bold; color: darkyellow; margin-top: 2rem;">✨ The golden rule ✨</div>
+  <div style="font-size: 1.6rem; font-weight: bold; color: darkyellow; margin-top: 2rem;">✨ Die goldene Regel ✨</div>
 
   <div v-click style="margin-top: 2rem;">
 
@@ -210,6 +212,16 @@ Im Dialog mit anderen
   </div>
 
 </div>
+
+<!--
+Wird leider immer wieder missachtet, und dann geht die Kritik normalerweise ins Leere
+Mehr erreicht man in einem Vier-Augen-Gespräch beim Kritisieren
+
+Loben natürlich immer gerne - generell spenden wir zuwenig Anerkennung
+
+Das gilt auch fürs Danke sagen: Richtig Danke sagen ist gar nicht so einfach:
+In die Augen schauen, lächeln, Hand geben, explizit sagen, wofür man dankt, und mindestens eine direkte positive Auswirkung erwähnen
+-->
 
 ---
 
@@ -239,7 +251,6 @@ Drei Schritte für spezifisches, umsetzbares Feedback:
 
 - nicht persönlich nehmen
 - nicht rechtfertigen
-- mitnehmen und später in Ruhe evaluieren
 
 </div>
 
@@ -247,30 +258,35 @@ Drei Schritte für spezifisches, umsetzbares Feedback:
 
 - spezifisch nachfragen, was genau gemeint ist
 - Intention des Feedbacks: Vorschlag oder Anweisung?
+- oder auch: einfach mitnehmen und später in Ruhe evaluieren
 
 </div>
 
 ---
 
-## Emotional Bids
+## Ich mache dir ein Angebot, dass du (leider) ablehnen kannst
 
-<ImageWithSource src="img/casino--kaysha-V3qzwMY2ak0-unsplash.jpg" alt="Foto eines Casino-Spieltisches" source="Photo by Kaysha on Unsplash" height="h-xs" />
-
+<ImageWithSource src="img/making-an-offer--jony-ariadi-QZub8Ni3x_c-unsplash.jpg" alt="Foto von Händen, die einen grünen Apfel anbieten" source="Photo by Jony Ariadi on Unsplash" height="h-xs" />
+      
   <!-- 
-    - Emotional Bids: Bitte um Unterstützung, Mitfühlen
+    - Emotional Bids: 
+      - Angebot, mit dem Ziel, positive Verstärkung zu bekommen
+      - Bitte um Unterstützung, Mitfühlen
   -->
 
 ---
 
-## Wetten in jeder Beziehung 
+## Emotional Bids in Beziehungen
 
 - Studie von <a href="https://www.gottman.com/">John Gottman</a> und Robert Levenson: "What predicts change in marital interaction over time" (1999)
 
-<img src="/img/Marriage_and_Couples_Research_snippet.png" alt="Ausschnitt aus Diagramm, Verhältnis positiv zu negativ bei Paaren" style="" />
+<div v-click>
+  <img src="/img/Marriage_and_Couples_Research_snippet.png" alt="Ausschnitt aus Diagramm, Verhältnis positiv zu negativ bei Paaren" style="" />
+</div>
 
   <!-- 
-    - Ferienwohnung nachgebaut, Paare einen Tag beobachtet, 90%+ Trefferquote bei Zusammenbleibewahrscheinlichkeit
-    - Emotional Bids: Bitte um Unterstützung, Mitfühlen
+    - Ferienwohnung nachgebaut, Paare einen Tag beobachtet, 90%+ Trefferquote bei Zusammenbleibewahrscheinlichkeit, sample size Originalstudie: 79 Paare
+    - Emotional Bids: Angebot, mit dem Ziel, positive Verstärkung zu bekommen
     - Mögliche Reaktionen:
       - Hinwenden/akzeptieren: +, 
       - halbherzig annehmen oder ignorieren: -
@@ -340,7 +356,7 @@ Vier Schritte:
   - Passiv: Ich höre zu, lasse mich aber eher berieseln oder bin immer mal wieder abgelenkt
   - Aktiv: Ich höre aufmerksam zu, nehme Informationen auf
   - Einfühlend: Ich höre aktiv zu, nehme zusätzlich Emotionen auf und versetze mich in die Lage des Sprechers
-  - Einfühlend ist noch stärker und schwieriger als aktives
+  - "Einfühlend" ist noch stärker und schwieriger als "aktiv"
 -->
 
 ---
@@ -384,7 +400,7 @@ Im Dialog mit anderen:
   - ehrlich sein
   - falls man was ähnliches erlebt hat: kurz einfließen lassen, dann Ball zurückspielen
   - falls man nichts ähnliches erlebt hat: ehrlich zugeben, nicht so tun, als würde man das auch kennen
-  - Wichtig: Zustimmung nicht erforderlich!
+  - Wichtig: Ich muss dem anderen nicht zustimmen, um zu validieren!
 
 -->
 
